@@ -47,7 +47,7 @@ difference() {
 
 translate([0, -20, 0]) {
     translate([-10, 0, 0])
-        dot_1(internal=true);
+        dot_1(internal=false);
     translate([10, 0, 0])
-        dot_2(internal=true);
+        dot_2(internal=false);
 }
